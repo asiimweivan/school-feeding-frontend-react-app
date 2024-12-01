@@ -1,70 +1,77 @@
-# Getting Started with Create React App
+School Feeding Tracker
+The School Feeding Tracker is a web-based platform designed to efficiently manage school meal programs. This application allows administrators to track student meals, monitor stock levels, and generate insightful reports.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Table of Contents
+Overview
+Features
+Technologies Used
+Getting Started
+Usage
+How to Sign Up
+How to Sign In
+Available Scripts
+Learn More
 
-## Available Scripts
+Overview
+The School Feeding Tracker is designed to simplify the management of school meal programs. It provides administrators with tools to monitor meal distribution, analyze trends, and manage food stock. This platform supports role-based access, ensuring data security and personalized experiences for users.
 
+Features
+Role-based Access Control (RBAC): Separate dashboards for admins and users.
+Meal Tracking: Record and monitor meal distributions.
+Stock Management: Track inventory and generate stock reports.
+Charts & Analytics: Visualize meal trends with interactive charts.
+Forgot/Reset Password: Secure recovery and reset functionality.
+File Upload: Upload relevant documents for better data management.
+
+Technologies Used
+Frontend: React.js, React Router DOM
+Backend: Spring Boot (API integration)
+Database: MySQL
+Authentication: JWT and Spring Security
+Deployment: Vercel
+
+Getting Started
+Prerequisites
+Install Node.js.
+Install npm (Node Package Manager).
+Setup
+1.Clone the repository:
+git clone https://github.com/asiimweivan/school-feeding-tracker.git  
+
+2.Navigate to the frontend directory:
+cd school-feeding-tracker-frontend  
+
+3.Install dependencies
+npm install  
+
+4.Start the application:
+npm start  
+
+Access the app at http://localhost:3000.
+
+Usage
+How to Sign Up
+Navigate to the Register page from the landing screen or use the URL: /register.
+Fill in your details, including your full name, email, and password.
+Click Sign Up to create your account.
+How to Sign In
+Navigate to the Login page from the landing screen or use the URL: /login.
+Enter your registered email and password.
+Click Sign In to access your dashboard.
+Available Scripts
 In the project directory, you can run:
 
-### `npm start`
+npm start
+Starts the app in development mode at http://localhost:3000.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+npm run build
+Builds the app for production in the build folder.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+npm test
+Runs the test cases in interactive mode.
 
-### `npm test`
+Learn More
+For detailed guides, check:
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+React Documentation
+Create React App Documentation
